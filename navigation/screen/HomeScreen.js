@@ -89,7 +89,11 @@ import FeaturedRow4 from '../../components/FeaturedRow4';
           <Text style={{ fontSize: 11 }}>View all</Text>
         </View>
 
-        <ScrollView style={{padding:5}}
+        <ScrollView contentContainerStyle={{
+          paddingHorizontal:1,
+        }}
+        horizontal
+        showsHorizontalScrollIndicator={false}
         >
         <View style={{ flexDirection: "row"}}>
         <FeaturedRow3
